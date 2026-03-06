@@ -1,1 +1,241 @@
 # Rajan-portfolio
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lakshmi Rajan M– Portfolio</title>
+  <link rel="stylesheet" href="Porfolio.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    </head>
+<body>
+
+   <!-- Navbar -->
+  <header class="navbar">
+    <div class="container nav-wrap">
+      <div class="logo">Lakshmi Rajan M</div>
+      <nav class="menu">
+        <button class="close-btn"><i class="fas fa-times"></i></button>
+        <a href="#home" class="nav-link">Home</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#education" class="nav-link">Education</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+      <div class="hamburger"><i class="fas fa-bars"></i></div>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section id="home" class="section hero">
+    <div class="container hero-flex">
+      <div class="hero-text">
+        <h1>Hi, I'm <span>Lakshmi Rajan M</span></h1>
+        <h2>Frontend Developer</h2>
+        <p>I’m Lakshmi Rajan M, a creative and detail-oriented Frontend Developer </p>
+        <div class="hero-buttons">
+          <a href="#contact" class="btn filled">Hire Me</a>
+          <a href="#contact" class="btn outlined">Let's Talk</a>
+        </div>
+        <div class="social-icons">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+      </div>
+      <div class="hero-img">
+        <img src="hero-image.jpg" alt="Lakshmi Rajan portrait">
+      </div>
+    </div>
+  </section>   
+
+
+
+  <!-- About Section -->
+  <section id="about" class="section">
+    <div class="container text-center">
+      <h2>About <span>Me</span></h2>
+      <div class="profile-pic-wrapper">
+        <img src="hero-image.jpg" alt="Profile photo" />
+      </div>
+      <h3>Frontend Developer!</h3>
+      <p>Hi, I'm Lakshmi Rajan M, a dedicated and creative Frontend Developer with a strong passion for designing and building modern, responsive websites and applications.I specialize in turning beautiful UI/UX designs into functional, accessible, and fast-loading websites using HTML, CSS, JavaScript, and frameworks like React. I enjoy crafting seamless user experiences and love working on clean, scalable code that performs well across all devices and browsers.</p>
+      <div class="about-buttons">
+        <a class="buttonabout" href="#education" class="btn About filled"><b>Read More</b></a>
+    </div>
+  </section>
+
+
+  <!-- Education & Experience Section -->
+<section id="education" class="timeline section">
+  <div class="container timeline-container">
+    <div class="column">
+      <h2>Education</h2>
+      <div class="timeline-item">
+        <span class="circle"></span>
+        <div class="content-box">
+          <p class="date">?? 2018 - 2022</p>
+          <h3>High School Degree</h3>
+          <p>Completed Higher Secondary Education with a focus in Computer Science, gaining strong foundational knowledge in programming, mathematics, and problem-solving.</p>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <span class="circle"></span>
+        <div class="content-box">
+          <p class="date">?? 2021 - 2022</p>
+          <h3>Bachelor Degree</h3>
+          <p>Studying Bachelor's Degree in Computer Science with a strong foundation in programming, data structures, and web development. Focused on practical skills and real-world projects.</p>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <span class="circle"></span>
+        <div class="content-box">
+          <p class="date">?? 2024 - 2028</p>
+          <h3>Master Degree</h3>
+          <p>Planning to Master of Engineering in Computer Science with a focus on backend development, cloud computing, and scalable web technologies. Passionate about solving real-world problems</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="column">
+      <h2>Experience</h2>
+      <div class="timeline-item">
+        <span class="circle"></span>
+        <div class="content-box">
+          <p class="date">?? None </p>
+      
+
+  <!-- Skills Section -->
+  <section id="skills" class="section">
+    <div class="container">
+      <h2 class="text-center">My <span>Skills</span></h2>
+      <div class="skills-grid">
+        <!-- Coding Skills -->
+        <div class="skills-card">
+          <h3>Coding Skills</h3>
+          <div class="skill">
+            <span>HTML</span>
+            <span>90%</span>
+            <div class="bar"><div class="fill" style="width:90%"></div></div>
+          </div>
+          <div class="skill">
+            <span>CSS</span><span>80%</span>
+            <div class="bar"><div class="fill" style="width:80%"></div></div>
+          </div>
+          <div class="skill">
+            <span>JavaScript</span><span>65%</span>
+            <div class="bar"><div class="fill" style="width:65%"></div></div>
+          </div>
+          <div class="skill">
+            <span>Python</span><span>75%</span>
+            <div class="bar"><div class="fill" style="width:75%"></div></div>
+          </div>
+        </div>
+        <!-- Professional Skills -->
+        <div class="skills-card">
+          <h3>Professional Skills</h3>
+          <div class="skill">
+            <span>Web Design</span><span>95%</span>
+            <div class="bar"><div class="fill" style="width:95%"></div></div>
+          </div>
+          <div class="skill">
+            <span>Web Development</span><span>67%</span>
+            <div class="bar"><div class="fill" style="width:67%"></div></div>
+          </div>
+          <div class="skill">
+            <span>Graphic Design</span><span>85%</span>
+            <div class="bar"><div class="fill" style="width:85%"></div></div>
+          </div>
+          
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section">
+    <div class="container">
+      <h2 class="text-center">Contact <span>Me!</span></h2>
+      <form class="contact-form">
+        <div class="form-row">
+          <input type="text" placeholder="Full Name" required />
+          <input type="email" placeholder="Email Address" required />
+        </div>
+        <div class="form-row">
+          <input type="text" placeholder="Mobile Number" />
+          <input type="text" placeholder="Email Subject" />
+        </div>
+        <textarea placeholder="Your Message" rows="6"></textarea>
+        <button type="submit" class="btn filled">Submit</button>
+      </form>
+    </div>
+  </section>
+ <!--===== FOOTER =====-->
+        <footer class="footer">
+            <div class="footer__social">
+                <a href="https://www.linkedin.com/in/lakshmi-rajan-m-12b61330a?utm_source=share_via&utm_content=profile&utm_medium=member_android" class="footer__icon"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="#" class="footer__icon"><i class="fa-brands fa-github"></i></a>
+            </div>
+            <p class="footer__copy">&#169; (Lakshmi Rajan M) All rigths reserved</p>
+        </footer>
+        <script>
+        // Mobile menu toggle
+        const hamburger = document.querySelector('.hamburger');
+        const menu = document.querySelector('.menu');
+        const closeBtn = document.querySelector('.close-btn');
+        const navbar = document.querySelector('.navbar');
+
+        hamburger.addEventListener('click', () => {
+            menu.classList.toggle('active');
+            hamburger.classList.toggle('active');
+        });
+
+        // Close menu with close button
+        closeBtn.addEventListener('click', () => {
+            menu.classList.remove('active');
+            hamburger.classList.remove('active');
+        });
+
+        // Close mobile menu when clicking on a link
+        document.querySelectorAll('.nav-link').forEach(link => {
+            link.addEventListener('click', () => {
+                menu.classList.remove('active');
+                hamburger.classList.remove('active');
+            });
+        });
+
+        // Close mobile menu when clicking outside
+        document.addEventListener('click', (e) => {
+            if (!hamburger.contains(e.target) && !menu.contains(e.target)) {
+                menu.classList.remove('active');
+                hamburger.classList.remove('active');
+            }
+        });
+
+        // Navbar scroll effect
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 50) {
+                navbar.classList.add('scrolled');
+            } else {
+                navbar.classList.remove('scrolled');
+            }
+        });
+
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+    </script>
+</body>
+</html>
